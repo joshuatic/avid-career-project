@@ -67,6 +67,8 @@ src/
       style.css
 ```
 
+### THERE IS NO INVOLVEMENT OF C/C++ IN THIS GAME. IT IS SOLELY JAVA AND IS A CODEBASE PERCENTAGE FOR THE BUNDLED JAVA RUNTIME
+
 # Running
 Run the project with the bundled Gradle wrapper:
 

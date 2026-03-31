@@ -72,11 +72,6 @@ public class Main extends Application {
     /*
      * The source code URL used by the "View Source Code" button
      * on the final screen.
-     *
-     * Replace this with your real repository link when ready.
-     *
-     * Example:
-     * "https://github.com/yourname/avid-career-project"
      */
     private static final String SOURCE_CODE_URL = "https://github.com/joshuatic/avid-career-project";
 
