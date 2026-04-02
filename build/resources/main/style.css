@@ -1,0 +1,59 @@
+/* Root background */
+.root {
+    -fx-background-color: #f4f6f8;
+}
+
+/* Stats + progress */
+.label {
+    -fx-text-fill: #333;
+}
+
+/* Text area (card style) */
+.text-area {
+    -fx-font-size: 15px;
+    -fx-background-color: white;
+    -fx-border-color: #dcdcdc;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 10;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #2d89ef;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-radius: 6;
+}
+
+/* Entire progress bar container */
+.progress-bar {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-pref-height: 12px;
+}
+
+/* Track (background) */
+.progress-bar .track {
+    -fx-background-color: #e0e0e0;
+    -fx-background-radius: 6;
+    -fx-background-insets: 0;
+}
+
+/* Filled portion */
+.progress-bar .bar {
+    -fx-background-insets: 0;
+    -fx-background-radius: 6;
+
+    /* fade gradient */
+    -fx-background-color: linear-gradient(
+            to right,
+            #34c759 0%,
+            #28a745 100%
+    );
+}
+
+/* Button hover */
+.button:hover {
+    -fx-background-color: #1b5fa7;
+}
