@@ -50,3 +50,7 @@ Desktop.ini
 *.jar
 *.war
 *.ear
+
+# allow build folder
+!build/
+!build/**
